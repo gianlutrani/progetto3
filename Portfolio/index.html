@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+     
+         <header>
+           <div class="hero">
+                <div class="hero-text">
+                   <h1 id="name">Gianluca Trani</h1>
+                   <p id="role">Junior Web Developer</p>
+                </div>
+              <img id="me" src="./assets/image/laurea.jpg" alt="Foto di Gianluca">
+            </div>
+</header>
+
+        <main>
+            <div class="content">
+                <section id>
+                     <h2>About me</h2>
+                     <p>Neolaureato in Informatica con competenze in Java , C , MYSQL e basi di sviluppo web.
+                        Attualmente sto seguendo un corso su Udemy per diventare Full Stack Developer con l'obiettivo
+                        di unire solide basi di programmazione backend alle tecnologie frontend.
+                     </p>
+               </section>
+            </div>
+        
+            <div>
+                <section id>
+                    <h2>Soft skills</h2>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>MYSQL</li>
+                        <li>C</li>
+                    </ol>
+                </section>
+            </div>
+
+                 <section>
+                    <h2>My Project</h2>
+                     <div class="portfolio">
+                        <div class="projects">
+                            <img id="progetto1" src="./projects/images/CardGalaxy.png">
+                            <h3>Progetto 1</h3>
+                            <a href="./projects/CardGalaxyFork.zip">Download the Project</a>
+                            <br>
+                            <a href="https://github.com/gianlutrani/Progetto1" target="_blank">View on GitHub</a>
+                          </div>
+                        <div class="projects">
+                            <img id="progetto2" src="./projects/images/approccioproposto.png">
+                            <h3>Progetto 2</h3>
+                            <a href="https://colab.research.google.com/drive/1JhAejFxK_-fj3lVdVYffbTNzzv5PEfjr">Download the project</a>
+                            <br>
+                            <a href="https://github.com/gianlutrani/Progetto2" target="_blank">View on GitHub</a>
+                            
+                        </div>
+                      </div>
+                    </section>
+                
+               <section>
+                    <div>
+                    <h2>Contacts</h2>
+                    <a id="email-link">gianlucatrani2000@gmail.com</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/gianluca-trani-8493092a5/">https://www.linkedin.com/in/gianluca-trani-8493092a5/</a>
+                    <br>
+                    <a href="https://github.com/gianlutrani">https://github.com/gianlutrani</a>
+                    </div>
+                </section>
+          
+
+             <script>
+                 const user = "gianlucatrani2000";
+                 const domain = "gmail.com";
+                 const emailLink = document.getElementById("email-link");
+                 emailLink.href = `mailto:${user}@${domain}`;
+            </script>
+        </main>
+
+        <footer>
+            <p> © 2025 Gianluca Trani - Tutti i diritti riservati</p>
+        </footer>
+
+    </body>
+</html>
